@@ -1,2 +1,4 @@
-# soc_comp
+# Social Computing Assignment 2
+
+
  
