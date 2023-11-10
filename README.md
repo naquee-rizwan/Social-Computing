@@ -20,7 +20,7 @@ ir_bridge_hi.ipynb - Bengali, GoogleTranslator(Bengali to Hindi), GoogleTranslat
 
 ------------------- Entity Extraction --------------------
 
-For entity extraction, matching of below tags were done fuzzywuzzy library's threshold string matching by calculating a fuzzy ratio:-
+For entity extraction, matching of below tags were done through fuzzywuzzy library's threshold string matching by calculating a fuzzy ratio:-
 label__ = {
     'O': 0,
     'B-treatment': 1,
