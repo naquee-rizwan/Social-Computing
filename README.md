@@ -1,6 +1,3 @@
-Roll No. - 23CS91R06
-Name - Naquee Rizwan
-
 # Social Computing Assignment 2
 
 All these files are named as per the guidelines provided in the Assignment.
