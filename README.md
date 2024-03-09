@@ -8,17 +8,17 @@ Following are the details of various files and the models they are using :-
 Initial Dataset setup logic is same in almost all the files.
 So, some initial codes of these files are almost same. For details, please visit the code.
 
-**ir_svm_en.ipynb** - English, TF-IDF Vectorization, SVM
+_ir_svm_en.ipynb_ : English, TF-IDF Vectorization, SVM
 
-**ir_rob_en.ipynb** - English, "roberta-base" as model checkpoint
+_ir_rob_en.ipynb_ : English, "roberta-base" as model checkpoint
 
-**ir_bcbert_en.ipynb** - English, "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ir_bcbert_en.ipynb_ : English, "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
-**ir_xlmr_hi.ipynb** - Hindi, "xlm-roberta-base" as model checkpoint
+_ir_xlmr_hi.ipynb_ : Hindi, "xlm-roberta-base" as model checkpoint
 
-**ir_dtrans_hi.ipynb** - Hindi, GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ir_dtrans_hi.ipynb_ : Hindi, GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
-**ir_bridge_hi.ipynb** - Bengali, GoogleTranslator(Bengali to Hindi), GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ir_bridge_hi.ipynb_ : Bengali, GoogleTranslator(Bengali to Hindi), GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
 **------------------- Entity Extraction --------------------**
 
@@ -38,17 +38,17 @@ label__ = {
 Initial Dataset setup logic is same in almost all the files.
 So, some initial codes of these files are almost same. For details, please visit the code.
 
-**ee_svm_en.ipynb** - English, TF-IDF Vectorization, SVM
+_ee_svm_en.ipynb_ : English, TF-IDF Vectorization, SVM
 
-**ee_rob_en.ipynb** - English, "roberta-base" as model checkpoint
+_ee_rob_en.ipynb_ : English, "roberta-base" as model checkpoint
 
-**ee_bcbert_en.ipynb** - English, "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ee_bcbert_en.ipynb_ : English, "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
-**ee_xlmr_hi.ipynb** - Hindi, "xlm-roberta-base" as model checkpoint
+_ee_xlmr_hi.ipynb_ : Hindi, "xlm-roberta-base" as model checkpoint
 
-**ee_dtrans_hi.ipynb** - Hindi, GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ee_dtrans_hi.ipynb_ : Hindi, GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
-**ee_bridge_hi.ipynb** - Bengali, GoogleTranslator(Bengali to Hindi), GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
+_ee_bridge_hi.ipynb_ : Bengali, GoogleTranslator(Bengali to Hindi), GoogleTranslator(Hindi to English), "emilyalsentzer/Bio_ClinicalBERT" as model checkpoint
 
 # Running these codes
 
