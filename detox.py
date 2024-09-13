@@ -55,10 +55,10 @@ for index1, lexicon in  enumerate(sorted_lexicon):
             for index2, lexicon_temp in enumerate(sorted_lexicon):
                 if (index2 not in done and
                     ((fuzz.ratio(current_element, lexicon_temp) >= 80) or
-                     (fuzz.ratio(current_element, lexicon_temp) >= 50 and fuzz.ratio(english_slur[current_element],
+                     (fuzz.ratio(current_element, lexicon_temp) >= 60 and fuzz.ratio(english_slur[current_element],
                                                                                      english_slur[lexicon_temp]) >= 80))):
                     done.append(index2)
-                    total_slur -= sorted_lexicon[lexicon_temp]
+                    total_slur += sorted_lexicon[lexicon_temp]
                     # array_slur.append((lexicon_temp, sorted_lexicon[lexicon_temp]))
                     array_slur.append((lexicon_temp, english_slur[lexicon_temp], sorted_lexicon[lexicon_temp]))
             current_index += 1
@@ -68,6 +68,6 @@ for index1, lexicon in  enumerate(sorted_lexicon):
 
 sorted_final_array_slur = sorted(final_array_slur.items(), key=lambda x:x[1])
 for item in sorted_final_array_slur:
-    print(-item[1])
-for item in sorted_final_array_slur:
     print(item[0])
+for item in sorted_final_array_slur:
+    print(item[1])
